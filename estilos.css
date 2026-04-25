@@ -1,0 +1,108 @@
+/* FUENTE PRO */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* BODY CENTRADO */
+body{
+    min-height:100vh;
+    font-family:'Poppins', sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color:#e2e8f0;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;   /* centra horizontal */
+    justify-content:center; /* centra vertical */
+    text-align:center;
+}
+
+/* CONTENEDOR GENERAL */
+main{
+    width:100%;
+    max-width:900px;
+}
+
+/* HEADER */
+header{
+    margin-bottom:30px;
+}
+
+/* TITULO */
+header h1{
+    font-size:56px;
+    color:#38bdf8;
+}
+
+/* NICKNAME */
+.nickname{
+    font-size:20px;
+    color:#94a3b8;
+}
+
+/* SECCIONES */
+section{
+    margin:20px 0;
+}
+
+/* TITULOS */
+h2{
+    font-size:30px;
+    margin-bottom:10px;
+    color:#22c55e;
+}
+
+/* TEXTO */
+p{
+    font-size:20px;
+    line-height:1.6;
+}
+
+/* PROYECTOS */
+.proyectos{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+/* TARJETAS */
+.card{
+    background:#020617;
+    padding:25px;
+    border-radius:12px;
+    transition:0.3s;
+}
+
+/* HOVER */
+.card:hover{
+    transform:translateY(-5px);
+}
+
+/* TITULO TARJETA */
+.card h3{
+    font-size:26px;
+}
+
+/* BOTONES */
+.card a{
+    display:inline-block;
+    margin-top:10px;
+    padding:12px 25px;
+    font-size:18px;
+    background:#38bdf8;
+    color:black;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+/* FOOTER */
+footer{
+    margin-top:30px;
+    font-size:16px;
+    color:#64748b;
+}

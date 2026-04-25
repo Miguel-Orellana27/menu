@@ -1,0 +1,4 @@
+cambia el fondo y el estilo de las letras
+Fondo (más elegante)
+Tipografía (más estilizada)
+Manteniendo todo limpio
